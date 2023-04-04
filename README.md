@@ -1,6 +1,6 @@
 # Kalman filtering and expectation maximization for multitemporal spectral unmixing    #
 
-This package contains the implementation of multi temporal unmixing algorithm proposed in the paper [1].
+This package contains the implementation of multi temporal unmixing algorithm proposed in [this paper](https://ieeexplore.ieee.org/abstract/document/9219120), referenced blow in [1].
 
 The code implements a multi temporal hyperspectral unmixing (MTHU) algorithm using physically motivated parametric endmember representations to account for temporal end member variability. By representing the multitemporal mixing process using a state-space formulation, it exploits Bayesian filtering to estimate the endmember variability coefficients, and an efficient implementation of the expectation–maximization (EM) algorithm is used to estimate the abundances and other model parameters.
 
@@ -23,7 +23,7 @@ The datasets are available in Zenodo [here](https://zenodo.org/record/7796598#.Z
 ## REFERENCE:
 If you use this software please cite the following in any resulting publication:
 
-    [1] [Kalman filtering and expectation maximization for multitemporal spectral unmixing](https://ieeexplore.ieee.org/abstract/document/9219120)
+    [1] Kalman filtering and expectation maximization for multitemporal spectral unmixing
         R.A. Borsoi, T. Imbiriba, P Closas, J.C.M. Bermudez, C. Richard.
         IEEE Geoscience and Remote Sensing Letters, 2020.
 
